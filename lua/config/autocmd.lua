@@ -8,3 +8,12 @@ autocmd('TextYankPost', {
     vim.highlight.on_yank()
   end,
 })
+
+autocmd('BufEnter', {
+  pattern = '*.md',
+  desc = 'Highlight a custom markdown block',
+  group = augroup('markdown-custom-block', { clear = true }),
+  callback = function()
+    vim.cmd("source" .. vim.fn.stdpath('config') .. "/syntax/markdown.vim")
+  end,
+})

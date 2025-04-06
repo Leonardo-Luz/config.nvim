@@ -1,6 +1,45 @@
 ## config.nvim
 
+<pre>
+<span class="DashboardHeader">                                                                                     
+</span><span class="DashboardHeader">                                                        
+</span><span class="DashboardHeader">                                                        
+</span><span class="DashboardHeader">                                                        
+</span><span class="DashboardHeader">                                                        
+</span><span class="DashboardHeader">                                                        
+</span><span class="DashboardHeader">                                ██╗     ███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗
+</span><span class="DashboardHeader">                                ██║     ██╔════╝██╔═══██╗██║   ██║██║████╗ ████║
+</span><span class="DashboardHeader">                                ██║     █████╗  ██║   ██║██║   ██║██║██╔████╔██║
+</span><span class="DashboardHeader">                                ██║     ██╔══╝  ██║   ██║╚██╗ ██╔╝██║██║╚██╔╝██║
+</span><span class="DashboardHeader">                                ███████╗███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║
+</span><span class="DashboardHeader">                                ╚══════╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
+</span><span class="DashboardHeader">                                                        
+</span><span class="DashboardHeader">                                                    62:03:16
+</span><span class="DashboardHeader">                                                        
+</span><span class="DashboardHeader">                                                        
+</span><span class="-markup-strong">                                              * </span><span class="-markup-strong">Update         <span class="-markup-strong"> [u]</span>
+</span>                                                                  
+<span class="-markup-strong">                                              * </span><span class="-markup-strong">Edit New File  <span class="-markup-strong"> [e]</span>
+</span>                                                                  
+<span class="-markup-strong">                                              * </span><span class="-markup-strong">Files          <span class="-markup-strong"> [f]</span>
+</span>                                                                  
+<span class="-markup-strong">                                              * </span><span class="-markup-strong">Nvim config    <span class="-markup-strong"> [n]</span>
+</span>                                                                  
+<span class="-markup-strong">                                              * </span><span class="-markup-strong">Telescope      <span class="-markup-strong"> [t]</span>
+</span>                                                                  
+<span class="DashboardFooter">                                                        
+</span><span class="DashboardFooter">                               &quot;Be the change that you wish to see in the world.&quot;
+</span><span class="DashboardFooter">                                                           - Mahatma Gandhi
+</span><span class="DashboardFooter">                                                        
+</span><span class="DashboardFooter">                                                        
+</span><span class="DashboardFooter">                                                        
+</span><span class="DashboardFooter">                                                        
+</span>
+</pre>
+
 *Yanked some code from `tjdevries/config.nvim`, `nvim-lua/kickstart.nvim`, and `ThePrimeagen/init.lua`.*
+
+* This configuration is specific to my environment and may receive breaking updates at any time.  Fork this repository or use it with caution.
 
 ## Installation
 
@@ -42,7 +81,7 @@
 
    ```bash
 
-   alias nvim-luz='NVIM_APPNAME=config.nvim nvim'
+   alias lvim='NVIM_APPNAME=config.nvim nvim'
 
    ```
 
@@ -50,6 +89,6 @@
 
    ```bash
 
-   nvim-luz
+   lvim
 
    ```

@@ -6,7 +6,6 @@ vim.api.nvim_create_autocmd({ "ColorScheme", "VimEnter" }, {
   pattern = "*",
   callback = function()
     local remove_background = {
-      'retrobox',
       'unokai',
       'quiet',
     }

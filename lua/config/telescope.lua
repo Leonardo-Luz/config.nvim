@@ -43,6 +43,10 @@ set('n', '<leader>s/', function()
   }
 end, { desc = '[S]earch [/] in Open Files' })
 
+set('n', '<leader>so', function()
+  builtin.find_files { hidden = true }
+end, { desc = '[S]earch [O]occult files' })
+
 set('n', '<leader>sn', function()
   builtin.find_files { cwd = vim.fn.stdpath 'config' }
 end, { desc = '[S]earch [N]eovim files' })
